@@ -15,6 +15,7 @@ def show_guess(guess, word):
     misplaced_letters = set(guess) & set(word) - correct_letters
     wrong_letters = set(guess) - set(word)
 
+    #dont sort correct_letters
     print("Correct letters:", ", ".join(sorted(correct_letters)))
     print("Misplaced letters:", ", ".join(sorted(misplaced_letters)))
     print("Wrong letters:", ", ".join(sorted(wrong_letters)))
@@ -24,7 +25,7 @@ def game_over(word):
 
 def main():
     # Pre-process
-    target = generate_random_word(5)
+    target = generate_random_word(3)
 
     # Process (main loop)
     for guess_num in range(1, 7):
