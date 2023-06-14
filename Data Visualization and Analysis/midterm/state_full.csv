@@ -1,0 +1,1111 @@
+﻿shortState,city
+NY,new york
+NY,new york city
+NY,buffalo
+NY,rochester
+NY,yonkers
+NY,syracuse
+NY,albany
+NY,new rochelle
+NY,mount vernon
+NY,schenectady
+NY,utica
+NY,white plains
+NY,hempstead
+NY,troy
+NY,niagara falls
+NY,binghamton
+NY,freeport
+NY,valley stream
+CA,northern california
+CA,los angeles
+CA,san diego
+CA,san jose
+CA,san francisco
+CA,fresno
+CA,sacramento
+CA,long beach
+CA,oakland
+CA,bakersfield
+CA,anaheim
+CA,santa ana
+CA,riverside
+CA,stockton
+CA,chula vista
+CA,irvine
+CA,fremont
+CA,san bernardino
+CA,modesto
+CA,fontana
+CA,oxnard
+CA,moreno valley
+CA,huntington beach
+CA,glendale
+CA,santa clarita
+CA,garden grove
+CA,oceanside
+CA,rancho cucamonga
+CA,santa rosa
+CA,ontario
+CA,lancaster
+CA,elk grove
+CA,corona
+CA,palmdale
+CA,salinas
+CA,pomona
+CA,hayward
+CA,escondido
+CA,torrance
+CA,sunnyvale
+CA,orange
+CA,fullerton
+CA,pasadena
+CA,thousand oaks
+CA,visalia
+CA,simi valley
+CA,concord
+CA,roseville
+CA,victorville
+CA,santa clara
+CA,vallejo
+CA,berkeley
+CA,el monte
+CA,downey
+CA,costa mesa
+CA,inglewood
+CA,carlsbad
+CA,san buenaventura (ventura)
+CA,fairfield
+CA,west covina
+CA,murrieta
+CA,richmond
+CA,norwalk
+CA,antioch
+CA,temecula
+CA,burbank
+CA,daly city
+CA,rialto
+CA,santa maria
+CA,el cajon
+CA,san mateo
+CA,clovis
+CA,compton
+CA,jurupa valley
+CA,vista
+CA,south gate
+CA,mission viejo
+CA,vacaville
+CA,carson
+CA,hesperia
+CA,santa monica
+CA,westminster
+CA,redding
+CA,santa barbara
+CA,chico
+CA,newport beach
+CA,san leandro
+CA,san marcos
+CA,whittier
+CA,hawthorne
+CA,citrus heights
+CA,tracy
+CA,alhambra
+CA,livermore
+CA,buena park
+CA,menifee
+CA,hemet
+CA,lakewood
+CA,merced
+CA,chino
+CA,indio
+CA,redwood city
+CA,lake forest
+CA,napa
+CA,tustin
+CA,bellflower
+CA,mountain view
+CA,chino hills
+CA,baldwin park
+CA,alameda
+CA,upland
+CA,san ramon
+CA,folsom
+CA,pleasanton
+CA,union city
+CA,perris
+CA,manteca
+CA,lynwood
+CA,apple valley
+CA,redlands
+CA,turlock
+CA,milpitas
+CA,redondo beach
+CA,rancho cordova
+CA,yorba linda
+CA,palo alto
+CA,davis
+CA,camarillo
+CA,walnut creek
+CA,pittsburg
+CA,south san francisco
+CA,yuba city
+CA,san clemente
+CA,laguna niguel
+CA,pico rivera
+CA,montebello
+CA,lodi
+CA,madera
+CA,santa cruz
+CA,la habra
+CA,encinitas
+CA,monterey park
+CA,tulare
+CA,cupertino
+CA,gardena
+CA,national city
+CA,rocklin
+CA,petaluma
+CA,huntington park
+CA,san rafael
+CA,la mesa
+CA,arcadia
+CA,fountain valley
+CA,diamond bar
+CA,woodland
+CA,santee
+CA,lake elsinore
+CA,porterville
+CA,paramount
+CA,eastvale
+CA,rosemead
+CA,hanford
+CA,highland
+CA,brentwood
+CA,novato
+CA,colton
+CA,cathedral city
+CA,delano
+CA,yucaipa
+CA,watsonville
+CA,placentia
+CA,glendora
+CA,gilroy
+CA,palm desert
+CA,cerritos
+CA,west sacramento
+CA,aliso viejo
+CA,poway
+CA,la mirada
+CA,rancho santa margarita
+CA,cypress
+CA,dublin
+CA,covina
+CA,azusa
+CA,palm springs
+CA,san luis obispo
+CA,ceres
+CA,san jacinto
+CA,lincoln
+CA,newark
+CA,lompoc
+CA,el centro
+CA,danville
+CA,bell gardens
+CA,coachella
+CA,rancho palos verdes
+CA,san bruno
+CA,rohnert park
+CA,brea
+CA,la puente
+CA,campbell
+CA,san gabriel
+CA,beaumont
+CA,morgan hill
+CA,culver city
+CA,calexico
+CA,stanton
+CA,la quinta
+CA,pacifica
+CA,montclair
+CA,oakley
+CA,monrovia
+CA,los banos
+CA,martinez
+CA,silicon valley
+IL,chicago
+IL,aurora
+IL,rockford
+IL,joliet
+IL,naperville
+IL,springfield
+IL,peoria
+IL,elgin
+IL,waukegan
+IL,cicero
+IL,champaign
+IL,bloomington
+IL,arlington heights
+IL,evanston
+IL,decatur
+IL,schaumburg
+IL,bolingbrook
+IL,palatine
+IL,skokie
+IL,des plaines
+IL,orland park
+IL,tinley park
+IL,oak lawn
+IL,berwyn
+IL,mount prospect
+IL,normal
+IL,wheaton
+IL,hoffman estates
+IL,oak park
+IL,downers grove
+IL,elmhurst
+IL,glenview
+IL,dekalb
+IL,lombard
+IL,belleville
+IL,moline
+IL,buffalo grove
+IL,bartlett
+IL,urbana
+IL,quincy
+IL,crystal lake
+IL,plainfield
+IL,streamwood
+IL,carol stream
+IL,romeoville
+IL,rock island
+IL,hanover park
+IL,carpentersville
+IL,wheeling
+IL,park ridge
+IL,addison
+IL,calumet city
+TX,houston
+TX,san antonio
+TX,dallas
+TX,austin
+TX,fort worth
+TX,el paso
+TX,arlington
+TX,corpus christi
+TX,plano
+TX,laredo
+TX,lubbock
+TX,garland
+TX,irving
+TX,amarillo
+TX,grand prairie
+TX,brownsville
+TX,pasadena
+TX,mckinney
+TX,mesquite
+TX,mcallen
+TX,killeen
+TX,frisco
+TX,waco
+TX,carrollton
+TX,denton
+TX,midland
+TX,abilene
+TX,beaumont
+TX,round rock
+TX,odessa
+TX,wichita falls
+TX,richardson
+TX,lewisville
+TX,tyler
+TX,college station
+TX,pearland
+TX,san angelo
+TX,allen
+TX,league city
+TX,sugar land
+TX,longview
+TX,edinburg
+TX,mission
+TX,bryan
+TX,baytown
+TX,pharr
+TX,temple
+TX,missouri city
+TX,flower mound
+TX,harlingen
+TX,north richland hills
+TX,victoria
+TX,conroe
+TX,new braunfels
+TX,mansfield
+TX,cedar park
+TX,rowlett
+TX,port arthur
+TX,euless
+TX,georgetown
+TX,pflugerville
+TX,desoto
+TX,san marcos
+TX,grapevine
+TX,bedford
+TX,galveston
+TX,cedar hill
+TX,texas city
+TX,wylie
+TX,haltom city
+TX,keller
+TX,coppell
+TX,rockwall
+TX,huntsville
+TX,duncanville
+TX,sherman
+TX,the colony
+TX,burleson
+TX,hurst
+TX,lancaster
+TX,texarkana
+TX,friendswood
+TX,weslaco
+PA,philadelphia
+PA,pittsburgh
+PA,allentown
+PA,erie
+PA,reading
+PA,scranton
+PA,bethlehem
+PA,lancaster
+PA,harrisburg
+PA,altoona
+PA,york
+PA,state college
+PA,wilkes-barre
+AZ,phoenix
+AZ,tucson
+AZ,mesa
+AZ,chandler
+AZ,glendale
+AZ,scottsdale
+AZ,gilbert
+AZ,tempe
+AZ,peoria
+AZ,surprise
+AZ,yuma
+AZ,avondale
+AZ,goodyear
+AZ,flagstaff
+AZ,buckeye
+AZ,lake havasu city
+AZ,casa grande
+AZ,sierra vista
+AZ,maricopa
+AZ,oro valley
+AZ,prescott
+AZ,bullhead city
+AZ,prescott valley
+AZ,marana
+AZ,apache junction
+FL,jacksonville
+FL,miami
+FL,tampa
+FL,orlando
+FL,st. petersburg
+FL,hialeah
+FL,tallahassee
+FL,fort lauderdale
+FL,port st. lucie
+FL,cape coral
+FL,pembroke pines
+FL,hollywood
+FL,miramar
+FL,gainesville
+FL,coral springs
+FL,miami gardens
+FL,clearwater
+FL,palm bay
+FL,pompano beach
+FL,west palm beach
+FL,lakeland
+FL,davie
+FL,miami beach
+FL,sunrise
+FL,plantation
+FL,boca raton
+FL,deltona
+FL,largo
+FL,deerfield beach
+FL,palm coast
+FL,melbourne
+FL,boynton beach
+FL,lauderhill
+FL,weston
+FL,fort myers
+FL,kissimmee
+FL,homestead
+FL,tamarac
+FL,delray beach
+FL,daytona beach
+FL,north miami
+FL,wellington
+FL,north port
+FL,jupiter
+FL,ocala
+FL,port orange
+FL,margate
+FL,coconut creek
+FL,sanford
+FL,sarasota
+FL,pensacola
+FL,bradenton
+FL,palm beach gardens
+FL,pinellas park
+FL,coral gables
+FL,doral
+FL,bonita springs
+FL,apopka
+FL,titusville
+FL,north miami beach
+FL,oakland park
+FL,fort pierce
+FL,north lauderdale
+FL,cutler bay
+FL,altamonte springs
+FL,st. cloud
+FL,greenacres
+FL,ormond beach
+FL,ocoee
+FL,hallandale beach
+FL,winter garden
+FL,aventura
+IN,indianapolis
+IN,fort wayne
+IN,evansville
+IN,south bend
+IN,carmel
+IN,bloomington
+IN,fishers
+IN,hammond
+IN,gary
+IN,muncie
+IN,lafayette
+IN,terre haute
+IN,kokomo
+IN,anderson
+IN,noblesville
+IN,greenwood
+IN,elkhart
+IN,mishawaka
+IN,lawrence
+IN,jeffersonville
+IN,columbus
+IN,portage
+OH,columbus
+OH,cleveland
+OH,cincinnati
+OH,toledo
+OH,akron
+OH,dayton
+OH,parma
+OH,canton
+OH,youngstown
+OH,lorain
+OH,hamilton
+OH,springfield
+OH,kettering
+OH,elyria
+OH,lakewood
+OH,cuyahoga falls
+OH,middletown
+OH,euclid
+OH,newark
+OH,mansfield
+OH,mentor
+OH,beavercreek
+OH,cleveland heights
+OH,strongsville
+OH,dublin
+OH,fairfield
+OH,findlay
+OH,warren
+OH,lancaster
+OH,lima
+OH,huber heights
+OH,westerville
+OH,marion
+OH,grove city
+NC,charlotte
+NC,raleigh
+NC,greensboro
+NC,durham
+NC,winston-salem
+NC,fayetteville
+NC,cary
+NC,wilmington
+NC,high point
+NC,greenville
+NC,asheville
+NC,concord
+NC,gastonia
+NC,jacksonville
+NC,chapel hill
+NC,rocky mount
+NC,burlington
+NC,wilson
+NC,huntersville
+NC,kannapolis
+NC,apex
+NC,hickory
+NC,goldsboro
+MI,detroit
+MI,grand rapids
+MI,warren
+MI,sterling heights
+MI,ann arbor
+MI,lansing
+MI,flint
+MI,dearborn
+MI,livonia
+MI,westland
+MI,troy
+MI,farmington hills
+MI,kalamazoo
+MI,wyoming
+MI,southfield
+MI,rochester hills
+MI,taylor
+MI,pontiac
+MI,st. clair shores
+MI,royal oak
+MI,novi
+MI,dearborn heights
+MI,battle creek
+MI,saginaw
+MI,kentwood
+MI,east lansing
+MI,roseville
+MI,portage
+MI,midland
+MI,lincoln park
+MI,muskegon
+TN,memphis
+TN,nashville-davidson
+TN,knoxville
+TN,chattanooga
+TN,clarksville
+TN,murfreesboro
+TN,jackson
+TN,franklin
+TN,johnson city
+TN,bartlett
+TN,hendersonville
+TN,kingsport
+TN,collierville
+TN,cleveland
+TN,smyrna
+TN,germantown
+TN,brentwood
+MA,boston
+MA,worcester
+MA,springfield
+MA,lowell
+MA,cambridge
+MA,new bedford
+MA,brockton
+MA,quincy
+MA,lynn
+MA,fall river
+MA,newton
+MA,lawrence
+MA,somerville
+MA,waltham
+MA,haverhill
+MA,malden
+MA,medford
+MA,taunton
+MA,chicopee
+MA,weymouth town
+MA,revere
+MA,peabody
+MA,methuen
+MA,barnstable town
+MA,pittsfield
+MA,attleboro
+MA,everett
+MA,salem
+MA,westfield
+MA,leominster
+MA,fitchburg
+MA,beverly
+MA,holyoke
+MA,marlborough
+MA,woburn
+MA,chelsea
+WA,washington university
+WA,washington
+WA,seattle
+WA,spokane
+WA,tacoma
+WA,vancouver
+WA,bellevue
+WA,kent
+WA,everett
+WA,renton
+WA,yakima
+WA,federal way
+WA,spokane valley
+WA,bellingham
+WA,kennewick
+WA,auburn
+WA,pasco
+WA,marysville
+WA,lakewood
+WA,redmond
+WA,shoreline
+WA,richland
+WA,kirkland
+WA,burien
+WA,sammamish
+WA,olympia
+WA,lacey
+WA,edmonds
+WA,bremerton
+WA,puyallup
+CO,denver
+CO,colorado springs
+CO,aurora
+CO,fort collins
+CO,lakewood
+CO,thornton
+CO,arvada
+CO,westminster
+CO,pueblo
+CO,centennial
+CO,boulder
+CO,greeley
+CO,longmont
+CO,loveland
+CO,grand junction
+CO,broomfield
+CO,castle rock
+CO,commerce city
+CO,parker
+CO,littleton
+CO,northglenn
+DC,washington d.c.
+DC,washington dc
+MD,baltimore
+MD,frederick
+MD,rockville
+MD,gaithersburg
+MD,bowie
+MD,hagerstown
+MD,annapolis
+KY,louisville/jefferson county
+KY,lexington-fayette
+KY,bowling green
+KY,owensboro
+KY,covington
+OR,portland
+OR,eugene
+OR,salem
+OR,gresham
+OR,hillsboro
+OR,beaverton
+OR,bend
+OR,medford
+OR,springfield
+OR,corvallis
+OR,albany
+OR,tigard
+OR,lake oswego
+OR,keizer
+OK,oklahoma city
+OK,tulsa
+OK,norman
+OK,broken arrow
+OK,lawton
+OK,edmond
+OK,moore
+OK,midwest city
+OK,enid
+OK,stillwater
+OK,muskogee
+WI,milwaukee
+WI,madison
+WI,green bay
+WI,kenosha
+WI,racine
+WI,appleton
+WI,waukesha
+WI,eau claire
+WI,oshkosh
+WI,janesville
+WI,west allis
+WI,la crosse
+WI,sheboygan
+WI,wauwatosa
+WI,fond du lac
+WI,new berlin
+WI,wausau
+WI,brookfield
+WI,greenfield
+WI,beloit
+NV,las vegas
+NV,henderson
+NV,reno
+NV,north las vegas
+NV,sparks
+NV,carson city
+NM,albuquerque
+NM,las cruces
+NM,rio rancho
+NM,santa fe
+NM,roswell
+NM,farmington
+NM,clovis
+MO,kansas city
+MO,st. louis
+MO,springfield
+MO,independence
+MO,columbia
+MO,"lee""s summit"
+MO,"o""fallon"
+MO,st. joseph
+MO,st. charles
+MO,st. peters
+MO,blue springs
+MO,florissant
+MO,joplin
+MO,chesterfield
+MO,jefferson city
+MO,cape girardeau
+VA,virginia beach
+VA,norfolk
+VA,chesapeake
+VA,richmond
+VA,newport news
+VA,alexandria
+VA,hampton
+VA,roanoke
+VA,portsmouth
+VA,suffolk
+VA,lynchburg
+VA,harrisonburg
+VA,leesburg
+VA,charlottesville
+VA,danville
+VA,blacksburg
+VA,manassas
+GA,atlanta
+GA,columbus
+GA,augusta-richmond county
+GA,savannah
+GA,athens-clarke county
+GA,sandy springs
+GA,roswell
+GA,macon
+GA,johns creek
+GA,albany
+GA,warner robins
+GA,alpharetta
+GA,marietta
+GA,valdosta
+GA,smyrna
+GA,dunwoody
+NE,omaha
+NE,lincoln
+NE,bellevue
+NE,grand island
+MN,minneapolis
+MN,st. paul
+MN,rochester
+MN,duluth
+MN,bloomington
+MN,brooklyn park
+MN,plymouth
+MN,st. cloud
+MN,eagan
+MN,woodbury
+MN,maple grove
+MN,eden prairie
+MN,coon rapids
+MN,burnsville
+MN,blaine
+MN,lakeville
+MN,minnetonka
+MN,apple valley
+MN,edina
+MN,st. louis park
+MN,mankato
+MN,maplewood
+MN,moorhead
+MN,shakopee
+KS,wichita
+KS,overland park
+KS,kansas city
+KS,olathe
+KS,topeka
+KS,lawrence
+KS,shawnee
+KS,manhattan
+KS,lenexa
+KS,salina
+KS,hutchinson
+LA,new orleans
+LA,baton rouge
+LA,shreveport
+LA,lafayette
+LA,lake charles
+LA,kenner
+LA,bossier city
+LA,monroe
+LA,alexandria
+HI,honolulu
+AK,anchorage
+NJ,newark
+NJ,jersey city
+NJ,paterson
+NJ,elizabeth
+NJ,clifton
+NJ,trenton
+NJ,camden
+NJ,passaic
+NJ,union city
+NJ,bayonne
+NJ,east orange
+NJ,vineland
+NJ,new brunswick
+NJ,hoboken
+NJ,perth amboy
+NJ,west new york
+NJ,plainfield
+NJ,hackensack
+NJ,sayreville
+NJ,kearny
+NJ,linden
+NJ,atlantic city
+ID,boise city
+ID,nampa
+ID,meridian
+ID,idaho falls
+ID,pocatello
+ID,caldwell
+ID,"coeur d""alene"
+ID,twin falls
+AL,birmingham
+AL,montgomery
+AL,mobile
+AL,huntsville
+AL,tuscaloosa
+AL,hoover
+AL,dothan
+AL,auburn
+AL,decatur
+AL,madison
+AL,florence
+AL,gadsden
+IA,des moines
+IA,cedar rapids
+IA,davenport
+IA,sioux city
+IA,iowa city
+IA,waterloo
+IA,council bluffs
+IA,ames
+IA,west des moines
+IA,dubuque
+IA,ankeny
+IA,urbandale
+IA,cedar falls
+AR,little rock
+AR,fort smith
+AR,fayetteville
+AR,springdale
+AR,jonesboro
+AR,north little rock
+AR,conway
+AR,rogers
+AR,pine bluff
+AR,bentonville
+UT,salt lake city
+UT,west valley city
+UT,provo
+UT,west jordan
+UT,orem
+UT,sandy
+UT,ogden
+UT,st. george
+UT,layton
+UT,taylorsville
+UT,south jordan
+UT,lehi
+UT,logan
+UT,murray
+UT,draper
+UT,bountiful
+UT,riverton
+UT,roy
+RI,providence
+RI,warwick
+RI,cranston
+RI,pawtucket
+RI,east providence
+RI,woonsocket
+MS,jackson
+MS,gulfport
+MS,southaven
+MS,hattiesburg
+MS,biloxi
+MS,meridian
+SD,sioux falls
+SD,rapid city
+CT,bridgeport
+CT,new haven
+CT,stamford
+CT,hartford
+CT,waterbury
+CT,norwalk
+CT,danbury
+CT,new britain
+CT,meriden
+CT,bristol
+CT,west haven
+CT,milford
+CT,middletown
+CT,norwich
+CT,shelton
+SC,columbia
+SC,charleston
+SC,north charleston
+SC,mount pleasant
+SC,rock hill
+SC,greenville
+SC,summerville
+SC,sumter
+SC,goose creek
+SC,hilton head island
+SC,florence
+SC,spartanburg
+NH,manchester
+NH,nashua
+NH,concord
+ND,fargo
+ND,bismarck
+ND,grand forks
+ND,minot
+MT,billings
+MT,missoula
+MT,great falls
+MT,bozeman
+DE,wilmington
+DE,dover
+ME,portland
+WY,cheyenne
+WY,casper
+WV,charleston
+WV,huntington
+VT,burlington
+AL,alabama
+AK,alaska
+AZ,arizona
+AR,arkansas
+CA,california
+CO,colorado
+CT,connecticut
+DE,delaware
+DC,district of columbia
+FL,florida
+GA,georgia
+HI,hawaii
+ID,idaho
+IL,illinois
+IN,indiana
+IA,iowa
+KS,kansas
+KY,kentucky
+LA,louisiana
+ME,maine
+MT,montana
+NE,nebraska
+NV,nevada
+NH,new hampshire
+NJ,new jersey
+NM,new mexico
+NY,new york
+NC,north carolina
+ND,north dakota
+OH,ohio
+OK,oklahoma
+OR,oregon
+MD,maryland
+MA,massachusetts
+MI,michigan
+MN,minnesota
+MS,mississippi
+MO,missouri
+PA,pennsylvania
+RI,rhode island
+SC,south carolina
+SD,south dakota
+TN,tennessee
+TX,texas
+UT,utah
+VT,vermont
+VA,virginia
+WA,washington
+WV,west virginia
+WI,wisconsin
+WY,wyoming
+CA,los angeles
+WA,seattle
+MN,minneapolis
+UT,salt lake city
+MA,boston
+MA,boston
+VT,rutland
+CA,silicon valley
+NY,new york
+TX,austin
+TX,dallas
+NY,manhattan
+IL,chicago
+TX,texas
+CA,"califas, usa"
+MN,minneapolis
+CA,temecula
+MA,cape cod
+GA,atlanta
+CA,san francisco
+TX,houston
+DC,d.c.
+NY,brooklyn
+PA,philadelphia
+NY,fredonia
+PA,"indiana,pa"
+FL,miami
+CO,denver
+CA,sfo
+NC,charlotte
+OR,portland
+CT,danbury
+CO,rocky mountains
+TX,"denton,tx"
+PA,"easton,  pa"
+NY,buffalo
+FL,"southside, jacksonville"
+MD,hagerstown maryland
+NY,"long island, ny"
+MO,st. louis
+FL,west palm beach
+MI,detroit
+TX,university of houston
+FL,"tampa, fl"
+GA,"georgia, usa"
+TX,texas
+VA,winchester va
+PA,"johnstown, pa "
+NJ,newark nj
+FL," melbourne, fl"
+MA,"pembroke, ma"
+OH,cincinnati
+TX,"matagorda, tx"
