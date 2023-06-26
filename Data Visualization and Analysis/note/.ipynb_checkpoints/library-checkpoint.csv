@@ -1,11 +1,3 @@
-isbn,title,author,year,price,pages,category,inStock,url
-8197652522387,Computer Networks,Alice Silberschatz,,45.79,,Networking,,
-2016001384049,Hardware Fundamentals,Irene Tanenbaum,1990,50,800,Hardware,True,
-8948219346420,Operating Systems,Jenny Lee,,,,Systems,,
-2558608394017,Database Principles,Charlie Miller,1998,,335,Database,,
-2497277650906,Diving into C++ Networks,Irene Ross,1997,,450,Programming,True,
-5657226515874,Database Security,Alice Ross,,135.99,,Security,,
-2472646599443,Hacking C++ Fundamentals,Gerry Patterson,2013,200.00,300,Programming,,
-9260839303777,Secure Systems,Charlie Tanenbaum,1997,,,Systems,False,
-3254672513036,Mastering Game Problems,Irene Silberschatz,,120.0,333,Programming,,
-1399709054430,Advanced Game Systems,Charlie Ross,2013,459,900,Systems,False,
+version https://git-lfs.github.com/spec/v1
+oid sha256:6dc330f890590e6c2bd855ed9d8828116a0ea0ce692aa1ccc4a2fa90773fecf6
+size 785

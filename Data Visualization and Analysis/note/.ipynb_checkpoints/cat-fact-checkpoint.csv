@@ -1,6 +1,3 @@
-,_id,user,text,__v,source,updatedAt,type,createdAt,deleted,used,status.verified,status.sentCount
-0,58e008800aac31001185ed07,58e007480aac31001185ecef,"Wikipedia has a recording of a cat meowing, because why not?",0,user,2020-08-23T20:20:01.611Z,cat,2018-03-06T21:20:03.505Z,False,False,True,1
-1,58e008630aac31001185ed01,58e007480aac31001185ecef,"When cats grimace, they are usually ""taste-scenting."" They have an extra organ that, with some breathing control, allows the cats to taste-sense the air.",0,user,2020-08-23T20:20:01.611Z,cat,2018-02-07T21:20:02.903Z,False,False,True,1
-2,58e00a090aac31001185ed16,58e007480aac31001185ecef,Cats make more than 100 different sounds whereas dogs make around 10.,0,user,2020-08-23T20:20:01.611Z,cat,2018-02-11T21:20:03.745Z,False,False,True,1
-3,58e009390aac31001185ed10,58e007480aac31001185ecef,"Most cats are lactose intolerant, and milk can cause painful stomach cramps and diarrhea. It's best to forego the milk and just give your cat the standard: clean, cool drinking water.",0,user,2020-08-23T20:20:01.611Z,cat,2018-03-04T21:20:02.979Z,False,False,True,1
-4,58e008780aac31001185ed05,58e007480aac31001185ecef,Owning a cat can reduce the risk of stroke and heart attack by a third.,0,user,2020-08-23T20:20:01.611Z,cat,2018-03-29T20:20:03.844Z,False,False,True,1
+version https://git-lfs.github.com/spec/v1
+oid sha256:30e486962aea2f54c187532d002e6b4c5e725c59b637827a835deef05abf5c41
+size 1306
