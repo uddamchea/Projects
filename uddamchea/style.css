@@ -1,0 +1,82 @@
+html{
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+#background {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+z-index: -1;
+background-image: url('images/background.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+#nav-bar{
+    padding: 2em 0 2em 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar ul{
+    list-style: none;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    outline: None;
+    color: white;
+    padding: 2em;
+}
+
+#nav-bar a:visited,
+#nav-bar a:hover,
+#nav-bar a:focus,
+#nav-bar a:active{
+    outline: None;
+}
+
+#nav-bar .left-bar p,
+#nav-bar ul li {
+    display: inline-block;
+}
+
+#nav-bar .left-nav a {
+    color: grey;
+}
+
+#me {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 10em 5em;
+  }
+
+#me .my-name {
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: -20px;
+    }
+
+#me .my-description {
+    color: grey;
+    }
+
+#me .my-summary{
+    color: grey;
+    margin-top: 4em;
+}
