@@ -12,53 +12,54 @@ body {
 
 
 #background {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100vh;
-z-index: -1;
-background-image: url('images/background.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #nav-bar{
-    padding: 2em 0 2em 0;
     margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+#nav-bar a {
+    text-decoration: None;
+    padding: 2em;
+    color: white;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+    display: block;
+  }
+  
+#nav-bar a:hover {
+    transform: scale(1.5);
+}
+
 #nav-bar ul{
     list-style: none;
 }
 
-#nav-bar a{
-    text-decoration: none;
-    outline: None;
-    color: white;
-    padding: 2em;
-}
-
-#nav-bar a:visited,
-#nav-bar a:hover,
-#nav-bar a:focus,
-#nav-bar a:active{
-    outline: None;
-}
-
-#nav-bar .left-bar p,
-#nav-bar ul li {
+#nav-bar .left-nav,
+#nav-bar .right-nav ul li {
     display: inline-block;
 }
 
-#nav-bar .left-nav a {
+#nav-bar .right-nav a{
+    color: white;
+}
+#nav-bar .left-nav a{
     color: grey;
 }
-
+  
 #me {
     position: absolute;
     top: 50%;
@@ -77,6 +78,8 @@ background-position: center;
     }
 
 #me .my-summary{
+    display: block;
     color: grey;
     margin-top: 4em;
+    margin-right: 50%;
 }
