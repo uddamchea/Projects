@@ -4,3 +4,5 @@ window.addEventListener('scroll', function() {
     const yOffset = window.pageYOffset;
     background.style.backgroundPositionY = -yOffset * 0.5 + 'px';
   });
+
+// need to figure out section scrolling + offset
