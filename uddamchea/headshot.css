@@ -1,0 +1,16 @@
+.headshot {
+    width: 400px;
+    height: 400px;
+    margin-top: 55%;
+    margin-left: 10em;
+    overflow: hidden;
+    border: 10px solid yellow;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 130);
+  }
+  
+.headshot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

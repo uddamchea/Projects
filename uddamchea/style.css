@@ -1,5 +1,6 @@
 html, body{
     height: 100%;
+    margin: 0 2em;
 }
 
 html{
@@ -79,6 +80,7 @@ body {
 
 #me .my-description {
     color: grey;
+    margin-bottom: 1em;
     }
 
 #me .my-summary{
@@ -87,3 +89,23 @@ body {
     margin-top: 4em;
     margin-right: 50%;
 }
+
+.location{
+    margin-top: 2em;
+    margin-left: 18em;
+}
+
+.hello-again{
+    font-size: 2em;
+    background: linear-gradient(to right, #e3ff73, #e27c39); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-me{
+    margin-left: 50%;
+    margin-right: 2em;
+    margin-top: -33%;
+    color: grey;
+}
+
