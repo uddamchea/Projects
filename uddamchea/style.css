@@ -47,6 +47,9 @@ body {
   
 #nav-bar a:hover {
     transform: scale(1.5);
+    background: linear-gradient(to right, #e3ff73, #e27c39); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #nav-bar ul{
