@@ -9,7 +9,6 @@ html{
 }
 
 body {
-    margin: 0;
     padding: 0;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -82,7 +81,9 @@ body {
     }
 
 #me .my-description {
-    color: grey;
+    background: linear-gradient(to right, #e3ff73, #e27c39); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 1em;
     }
 
