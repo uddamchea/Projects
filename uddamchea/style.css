@@ -113,7 +113,6 @@ body {
 }
 
 .hello-again{
-    font-size: 2em;
     background: linear-gradient(to right, #e3ff73, #e27c39); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
