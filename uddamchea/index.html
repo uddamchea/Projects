@@ -25,6 +25,7 @@
 
         <div class="right-nav">
             <ul>
+                <li><a href="#section-1">Home</a></li>
                 <li><a href="#section-2">About</a></li>
                 <li><a href="#section-3">Portfolio</a></li>
                 <li><a href="#section-4">Contact</a></li>
@@ -34,7 +35,7 @@
 
     <section id="section-1">
         <div id="me">
-            <p class="my-name">R. Uddam Chea</p>
+            <p class="my-name">Uddam Chea</p>
             <p class="my-description">Aspiring Software Engineer and Data Analyst</p>
             <p class="my-summary">A recent college graduate who is eager to join the industry.
                 I have combined experiences in both academic and professional settings on the 
@@ -59,7 +60,8 @@
 
     <section id="section-2">
         <div class="headshot">
-            <img src="images/headshot.PNG">
+            <!-- <img src="images/headshot.PNG"> -->
+            <img src="images/headshot2.jpeg">
         </div>
 
         <div class="location">
@@ -95,18 +97,29 @@
     </section>
 
     <section id="section-4">
-        <div class="contact-me-header">
-
-            <div class="contact-me-form">
-
+        <div class="contact-container">
+          <div class="form-container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+              <input type="text" id="name" placeholder="Name" required>
+              <input type="email" id="email" placeholder="Email" required>
+              <input id="message" placeholder="Message" required>
+              <button type="submit" id="submit-btn">Send Message</button>
+            </form>
+          </div>
+          <div class="info-container">
+            <div class="info-content">
+              <h2 class="big-heading">Let's Talk!</h2>
+              <h3 class="sub-heading">Or send me your best dad jokes...</h3>
             </div>
+            <div class="icons-container">
+              <a href="https://www.instagram.com/confused_grad/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/uddamchea" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/ratanak-uddam-chea/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <footer class="footer">
-        <a href="https://www.instagram.com/confused_grad/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://github.com/uddamchea" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/ratanak-uddam-chea/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-    </footer>
 </body>
 </html>

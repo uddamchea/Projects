@@ -43,7 +43,7 @@ body {
     transform-origin: center;
     display: block;
   }
-  
+
 #nav-bar a:hover {
     transform: scale(1.5);
     background: linear-gradient(to right, #e3ff73, #e27c39); 
@@ -125,15 +125,4 @@ body {
     color: grey;
 }
 
-.footer{
-    text-align: center;
-    padding: 10em 10em 0 10em;
-}
-
-.footer i{
-    margin-right: 2em;
-    font-size: 1.5em;
-    background: linear-gradient(to right, #e3ff73, #e27c39); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+/* Form */
