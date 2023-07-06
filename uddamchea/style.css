@@ -100,7 +100,7 @@ body {
     font-size: 1.5rem;
 }
 
-.tech-stack i{
+.tech-stack iconify-icon{
     background: linear-gradient(to right, #e3ff73, #e27c39); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -126,3 +126,101 @@ body {
 }
 
 /* Form */
+
+#section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5em 0;
+}
+
+.form-container {
+    width: 35%;
+    text-align: center;
+}
+
+.info-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background: linear-gradient(to left, #e3ff73, #e27c39); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.info-content h2{
+    margin-left: 5em;
+    margin-top: 2em;
+}
+
+.info-content img{
+    margin-left: 5em;
+    transform: scale(1.2);
+    transform: scaleX(-1);
+}
+
+/* Additional styling for the form inputs and button */
+
+#contact-form {
+    display: grid;
+    gap: 2em;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact-form textarea{
+    resize: none;
+    height: 150px;
+}
+
+#submit-btn {
+    padding: 10px 20px;
+    background-color: rgb(167, 203, 83);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /*  */
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#submit-btn:hover {
+    background-color: rgb(161, 138, 45);
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    background: linear-gradient(to left, #e3ff73, #e27c39); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+footer a {
+    margin: 0 1em;
+    font-size: 1.5em;
+  }
+
+.attribute{
+    align-items: right;
+    font-size: 1em;
+}

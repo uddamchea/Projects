@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="headshot.css">
     <script src="https://kit.fontawesome.com/a34c157266.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -25,10 +26,12 @@
 
         <div class="right-nav">
             <ul>
-                <li><a href="#section-1">Home</a></li>
+                <!-- <li><a href="#section-1">Home</a></li> -->
                 <li><a href="#section-2">About</a></li>
-                <li><a href="#section-3">Portfolio</a></li>
+                <!-- <li><a href="#section-3">Portfolio</a></li> -->
+                <li><a href="https://github.com/uddamchea" target="_blank">Github</a></li>
                 <li><a href="#section-4">Contact</a></li>
+                <li><a href="pdf/Resume.pdf" target="_blank">Resume</a></li>
             </ul>
         </div>
     </nav>
@@ -45,18 +48,22 @@
 
         <div class="tech-stack">
             <p>Tech Stack |</p>
-            <i class="fa-brands fa-python"></i>
-            <i class="fa-brands fa-square-js"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-bootstrap"></i>
-            <i class="fa-brands fa-react"></i>
-            <i class="fa-solid fa-database"></i>
-            <i class="fa-brands fa-github"></i>
+            <iconify-icon icon="logos:python"></iconify-icon>
+            <iconify-icon icon="cib:js"></iconify-icon>
+            <iconify-icon icon="devicon:html5"></iconify-icon>
+            <iconify-icon icon="vscode-icons:file-type-css"></iconify-icon>
+            <iconify-icon icon="devicon:bootstrap"></iconify-icon>
+            <iconify-icon icon="vscode-icons:file-type-reactjs"></iconify-icon>
+            <iconify-icon icon="material-symbols:database-outline"></iconify-icon>
+            <iconify-icon icon="mdi:github"></iconify-icon>
+            <iconify-icon icon="simple-icons:powerbi"></iconify-icon>
+            <iconify-icon icon="logos:tensorflow"></iconify-icon>
+            <iconify-icon icon="logos:tableau-icon"></iconify-icon>
+            <iconify-icon icon="tabler:api"></iconify-icon>
         </div>
     </section>
 
-    <section id="scroll"><span></span></section>
+    <section id="scroll-down"><span></span></section>
 
     <section id="section-2">
         <div class="headshot">
@@ -103,23 +110,25 @@
             <form id="contact-form">
               <input type="text" id="name" placeholder="Name" required>
               <input type="email" id="email" placeholder="Email" required>
-              <input id="message" placeholder="Message" required>
+              <textarea id="message" placeholder="Message" required></textarea>
               <button type="submit" id="submit-btn">Send Message</button>
             </form>
           </div>
           <div class="info-container">
             <div class="info-content">
-              <h2 class="big-heading">Let's Talk!</h2>
-              <h3 class="sub-heading">Or send me your best dad jokes...</h3>
-            </div>
-            <div class="icons-container">
-              <a href="https://www.instagram.com/confused_grad/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-              <a href="https://github.com/uddamchea" target="_blank"><i class="fa-brands fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/ratanak-uddam-chea/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <h2 class="big-heading">Let's Connect!</h2>
+              <img src="images/contact-me.png">
             </div>
           </div>
         </div>
       </section>
+
+      <footer>
+        <a href="https://www.instagram.com/confused_grad/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/uddamchea" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ratanak-uddam-chea/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <p>Image by<a class="attribute" href="https://www.freepik.com/free-vector/flat-design-illustration-customer-support_12982910.htm#query=contact%20us&position=0&from_view=keyword&track=ais" target="_blank">Freepik</a></p>
+      </footer>
 
 </body>
 </html>
