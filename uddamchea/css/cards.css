@@ -14,7 +14,8 @@
     min-width: 250px;
     padding: 1.5rem;
     border-radius: 16px;
-    background: #17141d;
+    /* background: #17141d; */
+    background: linear-gradient(to bottom left,#5F0A87, #A4508B);
     box-shadow: -1rem 0 3rem #000;
     transition: .2s;
 }
@@ -45,7 +46,6 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    filter: grayscale(100%);
     margin: 16px 10px;
 }
 
@@ -56,9 +56,10 @@
     width: 60px;
     height: 48px;
     fill: none;
-    stroke: #e27c39;
+    stroke: #e3ff73;
     stroke-width: 8;
     stroke-linecap: round;
+    stroke-dasharray: 20, 50;
 }
 
 .card-header {
@@ -96,10 +97,10 @@
     font-style: normal;
     font-weight: 700;
     font-size: .5rem;
-    color: #7a7a8c;
+    color: rgb(215, 215, 215);
     text-transform: uppercase;
     font-size: .66rem;
-    border: 3px solid #28242f;
+    border: 3px solid rgb(215,215,215);
     border-radius: 2rem;
     padding: .2rem .85rem .25rem;
     position: relative;
@@ -114,4 +115,5 @@
     -webkit-box-decoration-break: clone;
     background-clip: text;
     border-color: white;
+    cursor: pointer;
 }
