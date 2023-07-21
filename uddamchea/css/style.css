@@ -166,8 +166,8 @@ body {
 
 .info-content img{
     margin-left: 5em;
-    transform: scale(1.2);
-    transform: scaleX(-1);
+    transform: scale(0.2);
+    /* transform: scaleX(-1); */
 }
 
 /* Additional styling for the form inputs and button */
@@ -219,8 +219,3 @@ footer a {
     margin: 0 1em;
     font-size: 1.5em;
   }
-
-.attribute{
-    align-items: right;
-    font-size: 1em;
-}
