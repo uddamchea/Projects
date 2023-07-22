@@ -154,14 +154,21 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 2em;
-    background: linear-gradient(to left, #e3ff73, #e27c39); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .info-content h2{
     margin-left: 5em;
-    margin-top: 2em;
+    background: linear-gradient(to left, #e3ff73, #e27c39);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.info-container p{
+    display: flex;
+    text-align: left;
+    margin-left: 10rem;
+    color: grey;
+    font-size: 1rem;
 }
 
 .info-content img{
