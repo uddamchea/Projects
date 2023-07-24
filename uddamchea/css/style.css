@@ -188,13 +188,25 @@ body {
 #contact-form textarea {
     width: auto;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #e3ff73;
     border-radius: 4px;
+    background-color: rgb(24, 24, 24);
+    color: white;
 }
 
 #contact-form textarea{
     resize: none;
     height: 150px;
+}
+
+::placeholder{
+    color: grey;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 10px #e27c39;
 }
 
 #submit-btn {
