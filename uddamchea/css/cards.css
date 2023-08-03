@@ -5,6 +5,22 @@
     overflow-x: scroll;
 }
 
+#section-3 h1{
+ margin: 2em auto 0; /* Center the h1 horizontally */
+  background: linear-gradient(to right, #e3ff73, #e27c39);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#section-3::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+#section-3::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #e27c39;
+}
+
 .card {
     display: flex;
     position: relative;

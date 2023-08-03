@@ -5,5 +5,6 @@ window.addEventListener('scroll', function() {
     background.style.backgroundPositionY = -yOffset * 0.5 + 'px';
   });
 
-// card titl effect
+// collapsible nav-bar
+
 
