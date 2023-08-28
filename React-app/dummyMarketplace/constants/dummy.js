@@ -3,11 +3,11 @@ import assets from "./assets";
 const ItemData = [
   {
     id: "Item-01",
-    name: "Abstracto #312",
-    creator: "Putri Intan",
-    price: 4.25,
+    name: "Road Bike",
+    creator: "Uddam",
+    price: 10,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.",
+      "Just a really cool and fast bike.",
     image: assets.item01,
     bids: [
       {
@@ -17,29 +17,15 @@ const ItemData = [
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
-      {
-        id: "BID-12",
-        name: "Jennifer Sia",
-        price: 4.5,
-        image: assets.person03,
-        date: "December 27, 2019 at 1:50 PM",
-      },
-      {
-        id: "BID-13",
-        name: "Rosie Wong",
-        price: 4.75,
-        image: assets.person04,
-        date: "December 31, 2019 at 3:50 PM",
-      },
     ],
   },
   {
     id: "Item-02",
-    name: "Green Coins",
-    creator: "Siti Nurhaliza",
-    price: 7.25,
+    name: "Macbook Laptop",
+    creator: "Zane",
+    price: 1.2,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
+      "Just a really cool and fast laptop.",
     image: assets.item02,
     bids: [
       {
@@ -53,11 +39,11 @@ const ItemData = [
   },
   {
     id: "Item-03",
-    name: "Rare coins",
-    creator: "Elisabeth aho",
-    price: 95.25,
+    name: "Mice",
+    creator: "Thimali",
+    price: 0.1,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
+      "Just some cool mice.",
     image: assets.item03,
     bids: [
       {
@@ -67,22 +53,15 @@ const ItemData = [
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
-      {
-        id: "BID-32",
-        name: "Jennifer Sia",
-        price: 95.5,
-        image: assets.person03,
-        date: "December 27, 2019 at 1:50 PM",
-      },
     ],
   },
   {
     id: "Item-04",
-    name: "Nifty Item",
-    creator: "Putri Intan",
-    price: 54.25,
+    name: "White Hoodie",
+    creator: "Elham",
+    price: 0.2,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur.",
+      "Just a cool hoodie.",
     image: assets.item04,
     bids: [
       {
@@ -92,36 +71,15 @@ const ItemData = [
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
-      {
-        id: "BID-42",
-        name: "Jennifer Sia",
-        price: 54.25,
-        image: assets.person03,
-        date: "December 27, 2019 at 1:50 PM",
-      },
-      {
-        id: "BID-43",
-        name: "Rosie Wong",
-        price: 55.15,
-        image: assets.person04,
-        date: "December 31, 2019 at 3:50 PM",
-      },
-      {
-        id: "BID-44",
-        name: "Vincent Swift",
-        price: 54.15,
-        image: assets.person02,
-        date: "December 31, 2019 at 3:50 PM",
-      },
     ],
   },
   {
     id: "Item-05",
-    name: "Colorful circles",
-    creator: "David doe",
-    price: 10.25,
+    name: "Gold Table Lamp",
+    creator: "Lorenzo",
+    price: 1.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural.",
+      "Just a cool gold lamp.",
     image: assets.item05,
     bids: [
       {
@@ -135,11 +93,11 @@ const ItemData = [
   },
   {
     id: "Item-06",
-    name: "Black box model",
-    creator: "Leo Messi",
-    price: 20.25,
+    name: "Couch",
+    creator: "Jasper",
+    price: 0.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis.",
+      "Just a really comfy couch.",
     image: assets.item06,
     bids: [
       {
@@ -149,43 +107,15 @@ const ItemData = [
         image: assets.person02,
         date: "December 12, 2019 at 12:10 PM",
       },
-      {
-        id: "BID-62",
-        name: "Jennifer Sia",
-        price: 20.5,
-        image: assets.person03,
-        date: "December 27, 2019 at 1:50 PM",
-      },
-      {
-        id: "BID-63",
-        name: "Rosie Wong",
-        price: 20.75,
-        image: assets.person04,
-        date: "December 31, 2019 at 3:50 PM",
-      },
-      {
-        id: "BID-64",
-        name: "Siti Nurhaliza",
-        price: 21.25,
-        image: assets.person02,
-        date: "December 31, 2019 at 3:50 PM",
-      },
-      {
-        id: "BID-65",
-        name: "Kaitlyn Lee",
-        price: 7.25,
-        image: assets.person02,
-        date: "December 31, 2019 at 3:50 PM",
-      },
     ],
   },
   {
     id: "Item-07",
-    name: "Abstracto soulful art",
-    creator: "Victor de la Cruz",
-    price: 18.25,
+    name: "Ford SUV",
+    creator: "Frank",
+    price: 10.25,
     description:
-      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis. Ullamcorper platea penatibus ornare egestas nulla ligula hendrerit nisl suscipit sociosqu maximus, tincidunt aptent habitant purus pharetra ultrices dapibus laoreet nisi lacinia. Porta malesuada netus vel sapien conubia porttitor aliquam ut pretium ante litora molestie senectus magna egestas sociosqu, eget aliquet fames pharetra felis posuere varius fringilla quisque in arcu montes eu ullamcorper.",
+      "Just a really spacious car.",
     image: assets.item07,
     bids: [],
   },

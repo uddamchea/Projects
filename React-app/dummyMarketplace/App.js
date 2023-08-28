@@ -31,8 +31,8 @@ if(!loaded) return null;
     <NavigationContainer theme={theme}>
       <Stack.Navigator screenOptions={{ headerShown: false }}
       initialRouteName='Home'>
-        {/* <Stack.Screen name='Home' component={Home}/> */}
-        <Stack.Screen name='Details' component={Details}/>
+        <Stack.Screen name='Home' component={Home}/>
+        {/* <Stack.Screen name='Details' component={Details}/> */}
       </Stack.Navigator>
     </NavigationContainer>
   );
