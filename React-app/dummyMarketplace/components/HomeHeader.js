@@ -41,7 +41,7 @@ const HomeHeader = ({onSearch}) => {
           fontSize: SIZES.large,
           color: COLORS.white,
         }}>
-          Hello, Salim 👋
+          Hi, Salim 👋
         </Text>
       </View>
 

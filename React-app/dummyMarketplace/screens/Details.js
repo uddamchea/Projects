@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, View, SafeAreaView, Image, StatusBar, FlatList } from 'react-native'
+import { View, SafeAreaView, Image, StatusBar, FlatList } from 'react-native'
 import { SIZES, SHADOWS, assets } from '../constants'
 import { CircleButton, ContactButton, SubInfo, FocusedStatusBar } from '../components'
 import DetailsDesc from '../components/DetailsDesc'

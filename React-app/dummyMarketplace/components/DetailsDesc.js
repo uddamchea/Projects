@@ -12,6 +12,21 @@ const DetailsDesc = ({ data }) => {
   const [text, setText] = useState(data.description.slice(0, 100));
   const [readMore, setReadMore] = useState(false);
 
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  // Function to handle image press
+  const handleImagePress = (imageUri) => {
+    setSelectedImage(imageUri);
+    setIsModalVisible(true);
+  };
+
+  // Function to close the modal or screen
+  const handleCloseModal = () => {
+    setIsModalVisible(false);
+    setSelectedImage(null);
+  };
+
   const isTextTruncated = data.description.length > 100;
 
   return (
@@ -91,9 +106,20 @@ const DetailsDesc = ({ data }) => {
         >
           More Photos:
         </Text>
-        <ImageCarousel 
-        images={[assets.item01, assets.item02, assets.item03, assets.item04, assets.item05, assets.item06, assets.item07]} />
+        <ImageCarousel
+        images={[
+          assets.item01,
+          assets.item02,
+          assets.item03,
+          assets.item04,
+          assets.item05,
+          assets.item06,
+          assets.item07,
+        ]}
+        onImagePress={handleImagePress}
+      />
         </View>
+        {/* <ImageScreen imageUri={selectedImage} onClose={handleCloseModal} /> */}
     </>
   );
 };

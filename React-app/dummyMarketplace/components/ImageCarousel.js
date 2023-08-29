@@ -1,8 +1,7 @@
 import React from 'react';
-import { View, FlatList, Image, StyleSheet } from 'react-native';
-import { ScrollView } from 'react-native-gesture-handler';
+import { View, FlatList, Image, TouchableOpacity, StyleSheet } from 'react-native';
 
-const ImageCarousel = ({ images }) => {
+const ImageCarousel = ({ images, onImagePress }) => {
   return (
     <View style={styles.container}>
       <FlatList
@@ -10,7 +9,9 @@ const ImageCarousel = ({ images }) => {
         data={images}
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item }) => (
-          <Image source={item} style={styles.image} />
+          <TouchableOpacity onPress={() => onImagePress(item)}>
+            <Image source={item} style={styles.image} />
+          </TouchableOpacity>
         )}
         pagingEnabled
         showsHorizontalScrollIndicator={false}
@@ -29,7 +30,7 @@ const styles = StyleSheet.create({
   image: {
     width: 100,
     height: 100,
-    marginRight: 10, // Adjust as needed
+    marginRight: 10,
     borderRadius: 5,
     marginTop: 20,
   },
