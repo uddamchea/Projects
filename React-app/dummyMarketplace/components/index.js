@@ -1,10 +1,10 @@
 import HomeHeader from './HomeHeader';
 import FocusedStatusBar from './FocusedStatusBar';
 import ItemCard from './ItemCard';
-import { CircleButton, RectButton } from "./Button";
+import { CircleButton, RectButton, ContactButton } from "./Button";
 import { DetailsDesc } from './DetailsDesc';
-import { DetailsBid } from './DetailsBid';
+import { SubInfo } from './SubInfo';
 
 export {
-    HomeHeader, FocusedStatusBar, ItemCard, CircleButton, RectButton, DetailsDesc, DetailsBid
+    HomeHeader, FocusedStatusBar, ItemCard, CircleButton, RectButton, ContactButton, DetailsDesc, SubInfo,
 }

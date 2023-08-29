@@ -3,22 +3,30 @@ import React from 'react'
 import { SIZES, FONTS, COLORS, SHADOWS, assets } from '../constants'
 import { Colors } from 'react-native/Libraries/NewAppScreen'
 
-export const ItemTitle = (title, subTitle, titleSize, subTitleSize) => {
-  return (
-    <View>
-      <Text style={{
-        fontFamily: FONTS.semiBold,
-        fontSize: titleSize,
-        color: COLORS.primary,
-      }}>Title</Text>
-      <Text style={{
-        fontFamily: FONTS.regular,
-        fontSize: subTitleSize,
-        color: COLORS.primary,
-      }}>Subtitle</Text>
-    </View>
-  )
-}
+export const ItemTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
+    return (
+      <View>
+        <Text
+          style={{
+            fontFamily: FONTS.semiBold,
+            fontSize: titleSize,
+            color: COLORS.primary,
+          }}
+        >
+          {title}
+        </Text>
+        <Text
+          style={{
+            fontFamily: FONTS.regular,
+            fontSize: subTitleSize,
+            color: COLORS.primary,
+          }}
+        >
+          {subTitle}
+        </Text>
+      </View>
+    );
+  }
 
 export const ItemPrice = ({price}) => {
     return (
@@ -27,10 +35,10 @@ export const ItemPrice = ({price}) => {
         alignItems:'center',
       }}>
         <Image 
-        source={assets.eth}
+        source={assets.dollar}
         resizeMode='contain'
         style={{
-            width: 20,
+            width: 15,
             height: 20,
             marginRight: 2
         }}/>
@@ -60,7 +68,7 @@ export const ItemCMP = ({imgUrl, index}) => {
 export const People = () => {
     return (
       <View style={{
-        flexDirection: 'row',
+        // flexDirection: 'row',
       }}>
         {[assets.person01].map((imgUrl, index) => (
             <ItemCMP imgUrl={imgUrl} index={index} key={`People-${index}`}/>
@@ -80,12 +88,8 @@ export const ItemDate = () => {
         ...SHADOWS.light,
         elevation: 1,
         maxWidth: '50%',
+        borderRadius: SIZES.base,
       }}>
-        <Text style={{
-            fontFamily: FONTS.regular,
-            fontSize: SIZES.small,
-            color: COLORS.primary,
-        }}>Posted in</Text>
         <Text style={{
             fontFamily: FONTS.semiBold,
             fontSize: SIZES.medium,
