@@ -38,9 +38,7 @@ const Details = ({route, navigation}) => {
       flex: 1,
     }}>
       <FocusedStatusBar
-      barStyle='dark-content'
-      backgroundColor='transparent'
-      transLucent={true}/>
+      barStyle='dark-content'/>
       <View style={{
         width: '100%',
         position: 'absolute',
@@ -76,6 +74,6 @@ const Details = ({route, navigation}) => {
         />
     </SafeAreaView>
   )
-}
+};
 
-export default Details
+export default Details;

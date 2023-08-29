@@ -19,7 +19,7 @@ const Home = ({onSearch}) => {
     else {
       setItemData(ItemData);
     }
-  }
+  };
 
   return (
     <SafeAreaView style={{ flex: 1}}>
@@ -55,6 +55,6 @@ const Home = ({onSearch}) => {
       </View>
     </SafeAreaView>
   )
-}
+};
 
-export default Home
+export default Home;

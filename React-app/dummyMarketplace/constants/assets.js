@@ -1,4 +1,3 @@
-import badge from "../assets/icons/badge.png";
 import dollar from "../assets/icons/dollar.png";
 import heart from "../assets/icons/heart.png";
 import left from "../assets/icons/left.png";
@@ -19,7 +18,6 @@ import person03 from "../assets/images/person03.png";
 import person04 from "../assets/images/person04.png";
 
 export default {
-  badge,
   dollar,
   heart,
   left,
