@@ -2,6 +2,7 @@ import { View, Text, Image } from 'react-native'
 import React from 'react'
 import { SIZES, FONTS, COLORS, SHADOWS, assets } from '../constants'
 import { Colors } from 'react-native/Libraries/NewAppScreen'
+import moment from 'moment'
 
 export const ItemTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
     return (
@@ -77,7 +78,12 @@ export const People = () => {
     )
   }
 
-export const ItemDate = () => {
+
+
+export const ItemDate = ({date="2023-08-25T18:00:51.000Z"}) => {
+  const dateMoment = moment.utc(date).local().startOf('seconds');
+  const timeAgo = dateMoment.fromNow();
+
     return (
       <View style={{
         paddingHorizontal: SIZES.font,
@@ -94,7 +100,7 @@ export const ItemDate = () => {
             fontFamily: FONTS.semiBold,
             fontSize: SIZES.medium,
             color: COLORS.primary,
-        }}>12h Ago</Text>
+        }}>{timeAgo}</Text>
       </View>
     )
   }
