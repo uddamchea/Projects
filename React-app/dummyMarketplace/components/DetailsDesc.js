@@ -4,6 +4,10 @@ import { View, Text } from "react-native";
 import { ItemPrice, ItemTitle } from "./SubInfo";
 import { COLORS, SIZES, FONTS } from "../constants";
 
+import ImageCarousel from "./ImageCarousel";
+import { assets } from '../constants';
+import ImageScreen from "./ImageScreen";
+
 const DetailsDesc = ({ data }) => {
   const [text, setText] = useState(data.description.slice(0, 100));
   const [readMore, setReadMore] = useState(false);
@@ -77,6 +81,19 @@ const DetailsDesc = ({ data }) => {
           </Text>
         </View>
       </View>
+      <View style={{ marginVertical: SIZES.extraLarge * 1.5, bottom: 25}}>
+        <Text
+          style={{
+            fontSize: SIZES.font,
+            fontFamily: FONTS.semiBold,
+            color: COLORS.primary,
+          }}
+        >
+          More Photos:
+        </Text>
+        <ImageCarousel 
+        images={[assets.item01, assets.item02, assets.item03, assets.item04, assets.item05, assets.item06, assets.item07]} />
+        </View>
     </>
   );
 };
