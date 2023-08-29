@@ -5,6 +5,6 @@ import WelcomeScreen from './app/screens/WelcomeScreen';
 import ViewItemScreen from './app/screens/ViewItemScreen';
 
 export default function App() {
-  return <WelcomeScreen/>;
-  // return <ViewItemScreen/>;
+  // return <WelcomeScreen/>;
+  return <ViewItemScreen/>;
 }
