@@ -7,4 +7,5 @@ import ViewItemScreen from './app/screens/ViewItemScreen';
 export default function App() {
   // return <WelcomeScreen/>;
   return <ViewItemScreen/>;
+  // add more screen as necessary
 }

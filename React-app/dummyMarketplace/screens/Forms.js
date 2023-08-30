@@ -9,10 +9,7 @@ const ContactFormScreen = ({ navigation }) => {
     const [message, setMessage] = useState('');
   
     const handleSubmit = () => {
-      // Handle form submission (e.g., send the message)
-      // You can use a service or API to send the message
-      // Then navigate back to the previous screen
-    //   navigation.goBack();
+      //use something to handle form submission
     };
   
     return (  
