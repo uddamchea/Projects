@@ -2,6 +2,7 @@ import dollar from "../assets/icons/dollar.png";
 import heart from "../assets/icons/heart.png";
 import left from "../assets/icons/left.png";
 import search from "../assets/icons/search.png";
+import close from "../assets/icons/close.png";
 
 import logo from "../assets/images/logo.png";
 import item01 from "../assets/images/item01.jpg";
@@ -22,6 +23,7 @@ export default {
   heart,
   left,
   search,
+  close,
 
   logo,
   item01,

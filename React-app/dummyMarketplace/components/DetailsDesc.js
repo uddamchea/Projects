@@ -119,7 +119,7 @@ const DetailsDesc = ({ data }) => {
         onImagePress={handleImagePress}
       />
         </View>
-        {/* <ImageScreen imageUri={selectedImage} onClose={handleCloseModal} /> */}
+        <ImageScreen imageUri={selectedImage} onClose={handleCloseModal} />
     </>
   );
 };
