@@ -3,6 +3,7 @@ import { View, SafeAreaView, Image, StatusBar, FlatList } from 'react-native'
 import { SIZES, SHADOWS, assets } from '../constants'
 import { CircleButton, ContactButton, SubInfo, FocusedStatusBar } from '../components'
 import DetailsDesc from '../components/DetailsDesc'
+import { useNavigation } from '@react-navigation/native'
 
 const DetailsHeader = ({data, navigation}) => (
   <View style={{
@@ -31,7 +32,12 @@ const DetailsHeader = ({data, navigation}) => (
 )
 
 const Details = ({route, navigation}) => {
+
   const {data} = route.params;
+  const navigate = useNavigation();
+  const handleContactSeller = () => {
+    navigate.navigate('Forms');
+  }
   
   return (
     <SafeAreaView style={{
@@ -49,7 +55,10 @@ const Details = ({route, navigation}) => {
         backgroundColor: 'rgba(255,255,255,255,0.5)',
         zIndex: 1,
       }}>
-        <ContactButton marginBottom={5} minWidth={180} fontSize={SIZES.large} {...SHADOWS.dark}/>
+        <ContactButton 
+        marginBottom={5} minWidth={180} fontSize={SIZES.large} {...SHADOWS.dark}
+        // onPress={handleContactSeller}
+        handlePress={() => navigation.navigate('Forms')}/>
       </View>
 
       <FlatList

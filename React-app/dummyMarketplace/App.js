@@ -4,7 +4,7 @@ import { NavigationContainer, DefaultTheme } from '@react-navigation/native'
 import { useFonts } from 'expo-font';
 import Home from './screens/Home'
 import Details from './screens/Details'
-import { COLORS } from './constants';
+import Forms from './screens/Forms'
 
 const Stack = createStackNavigator();
 
@@ -32,6 +32,7 @@ if(!loaded) return null;
       initialRouteName='Home'>
         <Stack.Screen name='Home' component={Home}/>
         <Stack.Screen name='Details' component={Details}/>
+        <Stack.Screen name='Forms' component={Forms}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

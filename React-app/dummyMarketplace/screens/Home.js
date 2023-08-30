@@ -1,10 +1,17 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { View, SafeAreaView, FlatList } from 'react-native'
 
 import { COLORS, ItemData } from '../constants'
 import { ItemCard, FocusedStatusBar, HomeHeader } from '../components'
 
 const Home = ({onSearch}) => {
+
+  // 
+  // 
+
+  // 
+  // 
+
   const [itemData, setItemData] = useState(ItemData);
   const handleSearch = (value) => {
     if(!value.length) setItemData(ItemData);
