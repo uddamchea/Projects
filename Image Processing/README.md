@@ -1,5 +1,5 @@
 # Required Installation
 
-Python3
-3d Slicer
-ITK snap
+- Python3
+- 3d Slicer
+- ITK snap
